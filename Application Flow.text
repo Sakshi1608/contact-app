@@ -1,0 +1,5 @@
+This application has the following components - 
+Header - Header of the application to which I have passed the prop value (This is a functional Component)
+AddContact - This has the add contact form as a class component which onsubmit performs the add functionality
+We pass addContact handler from appp.js to addcontact.js component as a prop
+we pass name and email as a state json to be added
