@@ -2,20 +2,25 @@ import React from 'react';
 import CardContact from './ContactCard';
 
 const ContactList = (props) => {
-    const deleteContactHandler = (id) =>{
+    const contacts = Array.isArray(props.contacts) ? props.contacts : [];
+
+    const deleteContactHandler = (id) => {
         props.getContactid(id);
     };
 
-    
-    const renderContactList = props.contacts.map((contact) =>{
-        return(
-           <CardContact contact={contact} clickHandler={deleteContactHandler}></CardContact>
-        )
-    })
+    const renderContactList = contacts.map((contact) => (
+        <CardContact
+            contact={contact}
+            clickHandler={deleteContactHandler}
+            key={contact.id}
+        />
+    ));
+
     return (
         <div className="ui celled list">
-            {renderContactList}
+            {renderContactList.length > 0 ? renderContactList : <div>No contacts available.</div>}
         </div>
     );
-}
+};
+
 export default ContactList;
