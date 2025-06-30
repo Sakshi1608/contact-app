@@ -2,7 +2,7 @@
 
 This is a simple react project made for managing contacts you can add and delete contacts with persistent storage using `localStorage`.
 Prepared this while learning react in the initial days
-
+Live Demo available at : https://sakshi1608.github.io/contact-app
 ---
 
 ## 🚀 Features
