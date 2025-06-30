@@ -23,22 +23,14 @@ Prepared this while learning react in the initial days
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Files
 
-src/
-│
-├── components/
-│ ├── AddContact.js # Class component to add a contact
-│ ├── ContactCard.js # Functional component to render a contact
-│ ├── ContactList.js # Functional component to render all contacts
-│ ├── Header.js # Header component
-│ └── App.js # Main component (handles state + logic)
-│
-├── images/
-│ └── user.png # Placeholder Icon
-│
-├── App.css
-└── index.js
+AddContact.js # Class component to add a contact
+ContactCard.js # Functional component to render a contact
+ContactList.js # Functional component to render all contacts
+Header.js # Header component
+App.js # Main component (handles state + logic)
+
 
 ## 🧪 How to Run the App Locally
 
@@ -48,10 +40,13 @@ src/
    cd contact-app
 
 2. **Install Dependencies**
+    ```bash
     npm install
 3. **Start the app**
+    ```bash
     npm start
-    Open http://localhost:3000 in your browser 🎉
+
+Open http://localhost:3000 in your browser 🎉
 
 ## 📸 Preview
 
