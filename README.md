@@ -1,20 +1,20 @@
-# 📇 React Contact Manager
+# React Contact Manager
 
 This is a simple react project made for managing contacts you can add and delete contacts with persistent storage using `localStorage`.
 Prepared this while learning react in the initial days
 Live Demo available at : https://sakshi1608.github.io/contact-app
 ---
 
-## 🚀 Features
+## Features
 
-- 📥 Add new contacts with name and email
-- 🗑️ Delete contacts
-- 💾 Persists contact list using browser's `localStorage`
-- 🎨 Clean UI using Semantic UI React
+- Add new contacts with name and email
+- Delete contacts
+- Persists contact list using browser's `localStorage`
+- Clean UI using Semantic UI React
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React.js (Functional + Class Components)
 - Semantic UI for styling
@@ -23,7 +23,7 @@ Live Demo available at : https://sakshi1608.github.io/contact-app
 
 ---
 
-## 📂 Project Files
+## Project Files
 
 AddContact.js # Class component to add a contact
 ContactCard.js # Functional component to render a contact
@@ -32,7 +32,7 @@ Header.js # Header component
 App.js # Main component (handles state + logic)
 
 
-## 🧪 How to Run the App Locally
+## How to Run the App Locally
 
 1. **Clone the Repository**
    ```bash
@@ -46,9 +46,9 @@ App.js # Main component (handles state + logic)
     ```bash
     npm start
 
-Open http://localhost:3000 in your browser 🎉
+Open http://localhost:3000 in your browser
 
-## 📸 Preview
+## Preview
 
     ![App Preview] (image.png)
 
